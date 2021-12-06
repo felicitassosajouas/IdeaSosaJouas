@@ -1,0 +1,300 @@
+*{
+    font-family: 'Circular Std', sans-serif;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main {
+    background-image: url(./images/Diseño\ sin\ título.png)
+}
+main {
+    background-repeat: no-repeat
+}
+main {
+    background-size: 200%;
+    background-position: center
+}
+main {
+    background-attachment: fixed;
+}
+.logo {
+    width: 90px;
+    border-radius: 50%;
+}
+h1 {
+    font-style: italic;
+    font-weight: 380;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+h2 {
+    color: rgb(13, 72, 80);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+h4 {
+    text-align: center;
+    font-weight: 300;
+}
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 10fr 1fr; 
+    padding: 5px 10px;
+    margin: 0px;
+    background-color: rgb(199, 231, 136);
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.img {
+    width: 350px;
+}
+.imgflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img {
+    padding: 5px;
+}
+footer .imgig {
+    width: 20px;
+}
+/*===== NAV ====*/
+.nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav ul li:hover {
+    padding: 5px;
+    background-color: rgb(134, 155, 158);
+    color: white;
+    text-decoration: none;
+}
+nav ul li {
+    padding: 5px;
+    font-size: 20px;
+    height: 30px;
+    list-style-type: none;
+    transition: all .3s;
+    font-weight: 300;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 8px 0px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    background-color: rgb(199, 231, 136);
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+/*        LINKS        */
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+/*=============================== NOSOTROS ===============================*/
+.footernos {
+    margin-top: 180px;
+    position: relative;
+}
+/*=============================== PRODUCTOS ===============================*/
+div section .section {
+    background-image: url(./images/Diseño\ sin\ título.png)
+}
+div section .section{
+    background-size: 100%;
+}
+
+.navproductos {
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;*/
+    display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+.navprodli {
+    height: 30px;
+    transition: all .3s;
+}
+.navprodli:hover {
+    padding: 5px;
+    background-color: rgb(142, 190, 197);
+}
+.navprodli {
+    font-size: 15px;
+    font-weight: 360;
+}
+img {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.imgig {
+    width: 20px;
+}
+.img {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
+	display:block;
+    border-radius: 5%;
+}
+
+/*=============================== AYUDA ===============================*/
+p {
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 10px;
+}
+section div .pregf {
+    text-align: left;
+    padding: 12px;
+    text-decoration: underline rgb(134, 155, 158) 2px;
+    font-style: italic;
+}
+
+/*=============================== CONTACTO ===============================*/
+.formm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    height: 30px;
+    width: 130px;
+    border: none;
+    display: flex;
+    background-color: white;
+    border: solid rgb(13, 72, 80);
+    transition-duration: .5s;
+}
+.bottom:hover {
+    justify-content: center;
+    font-size: 15px;
+    height: 31px;
+    width: 150px;
+    background-color: rgb(13, 72, 80);
+    color: white;
+}
+@media screen and (min-width: 760px) {
+    h1 {
+        font-weight: 400;
+        font-size: 50px;
+        text-align: center;
+    }
+    h2 {
+        font-weight: 300;
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    h3 {
+        font-weight: 300;
+        font-size: 27px;
+    }
+    h4 {
+        font-weight: 270;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    nav ul li {
+        font-weight: 300;
+        font-size: 27px;
+        padding-left: 10px;
+    }
+    section .navproductos .navprodli{
+        font-size: 20px;
+        font-weight: 300;
+        padding: 0px 5px;
+    }
+    .prod {
+        background-color: blanchedalmond;
+    }
+    p {
+        font-size: 25px;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 70px;
+        font-weight: 200px;
+    }
+    .logo {
+        width: 150px;
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 38px;
+    }
+    nav ul li {
+        font-weight: 300;
+        font-size: 34px;
+        padding-left: 10px;
+        height: 50px;
+        transition: all .3s;
+    }
+    nav ul li:hover {
+        background-color: rgb(142, 190, 197);
+    }
+    .mainn {
+        padding: 110px;
+    }
+    .img {
+        width: 700px;
+    }
+    .navprodli {
+        padding: 20px;
+    height: 20px;
+    }
+}
