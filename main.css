@@ -20,10 +20,13 @@ main {
 .logo {
     width: 90px;
     border-radius: 50%;
+<<<<<<< HEAD
     transition-duration: 0.5s;
 }
 .logo:hover {
     width: 93px;
+=======
+>>>>>>> 0122dfcd72e8bd5687066ab44700b28c30770183
 }
 h1 {
     font-style: italic;
@@ -226,9 +229,12 @@ section div .pregf {
     color: white;
 }
 @media screen and (min-width: 760px) {
+<<<<<<< HEAD
     .logo:hover {
         width: 95px;
     }
+=======
+>>>>>>> 0122dfcd72e8bd5687066ab44700b28c30770183
     h1 {
         font-weight: 400;
         font-size: 50px;
@@ -266,6 +272,7 @@ section div .pregf {
         font-weight: 300;
         padding-bottom: 20px;
     }
+<<<<<<< HEAD
     .imgf {
         padding-top: 20px;
     }
@@ -288,11 +295,29 @@ section div .pregf {
     h2 {
         font-weight: 400;
         font-size: 30px;
+=======
+}
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 70px;
+        font-weight: 200px;
+    }
+    .logo {
+        width: 150px;
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 40px;
+>>>>>>> 0122dfcd72e8bd5687066ab44700b28c30770183
         padding-bottom: 20px;
     }
     h3 {
         font-weight: 400;
+<<<<<<< HEAD
         font-size: 30px;
+=======
+        font-size: 38px;
+>>>>>>> 0122dfcd72e8bd5687066ab44700b28c30770183
     }
     nav ul li {
         font-weight: 300;
@@ -314,6 +339,7 @@ section div .pregf {
         padding: 20px;
     height: 20px;
     }
+<<<<<<< HEAD
     .img {
         -webkit-transform-origin-x: 1 1;
     }
@@ -328,3 +354,6 @@ section div .pregf {
     }
 }
 
+=======
+}
+>>>>>>> 0122dfcd72e8bd5687066ab44700b28c30770183
