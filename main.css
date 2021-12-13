@@ -27,12 +27,14 @@ main {
     width: 93px;
 }
 h1 {
+    align-items: center;
     font-style: italic;
     font-weight: 380;
     font-size: 30px;
     padding-top: 20px;
     padding-left: 20px;
     text-align: center;
+    color: rgb(207, 243, 136);
 }
 h2 {
     color: rgb(13, 72, 80);
@@ -42,8 +44,11 @@ h2 {
 }
 h3 {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
+}
+div h3 {
+    font-size: 18px;
 }
 h4 {
     text-align: center;
@@ -54,7 +59,7 @@ h4 {
     grid-template-columns: 10fr 1fr; 
     padding: 5px 10px;
     margin: 0px;
-    background-color: rgb(199, 231, 136);
+    background-color: rgb(13, 72, 80);
     background-size: cover;
     background-repeat:no-repeat
 }
@@ -74,7 +79,8 @@ footer .imgig {
 }
 
 
-/*===== NAV ====*/
+
+/*======================= NAV ======================*/
 .nav-linksactive{
     background-color: rgb(134, 155, 158);
 }
@@ -82,23 +88,39 @@ footer .imgig {
     display: flex;
     flex-direction: column;
 }
-/* FOOTER */
+.navpills {
+    transition: 0.3s;
+}
+.navpills {
+    background-color: rgb(166, 197, 202);
+}
+#colorpill {
+    background-color: rgb(142, 190, 197);
+}
+
+
+
+/*=============================== FOOTER ===============================*/
 
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 10px;
-    background-color: rgb(199, 231, 136);
+    background-color: rgb(207, 243, 136);
     align-items: center;
     position: relative;
     width: 100%;
+    padding-top: 20px;
 }
+
+
+
+/*        LINKS        */
 a:active {
     text-decoration: none;
     color: black;
 }
-/*        LINKS        */
 a:hover {
     text-decoration: none;
     color: black;
@@ -111,12 +133,24 @@ a:visited {
     color: black;
     text-decoration: none;
 }
+a {
+    text-decoration: none;
+}
+footer div p {
+    font-size: 15px;
+}
+footer .imgig {
+    padding-bottom: 10px;
+}
+
 
 /*=============================== NOSOTROS ===============================*/
 .footernos {
     margin-top: 180px;
     position: relative;
 }
+
+
 /*=============================== PRODUCTOS ===============================*/
 div section .section {
     background-image: url(./images/Diseño\ sin\ título.png)
@@ -127,21 +161,24 @@ div section .section{
 
 .navproductos {
     display: inline-block;
-	padding: 20px;
 	width: 100%;
 	text-align: center;
+    justify-content: center;
 	color: #000;
     text-decoration: none;
+    padding-right: 30px;
 }
 .navprodli {
     height: 30px;
     transition: all .3s;
     text-decoration: none;
     list-style-type: none;
+    color: black;
 }
 .navprodli:hover {
     padding: 5px;
     background-color: rgb(142, 190, 197);
+    color: black;
 }
 .navprodli {
     font-size: 15px;
@@ -169,6 +206,7 @@ img {
     border-radius: 5%;
 }
 
+
 /*=============================== AYUDA ===============================*/
 p {
     font-weight: 300;
@@ -182,29 +220,32 @@ section div .pregf {
     font-style: italic;
 }
 
+
 /*=============================== CONTACTO ===============================*/
 .formm {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .form {
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 250px;
 }
 .bottom {
     display: flex;
     justify-content: center;
     font-size: 15px;
     height: 30px;
-    width: 130px;
+    width: 140px;
     border: none;
     display: flex;
-    background-color: white;
-    border: solid rgb(13, 72, 80);
+    background-color: rgb(207, 243, 136);
     transition-duration: .5s;
+    border-radius: 10%;
 }
 .bottom:hover {
     justify-content: center;
@@ -214,6 +255,10 @@ section div .pregf {
     background-color: rgb(13, 72, 80);
     color: white;
 }
+
+
+
+/*                                     MEDIA QUERY                                     */
 @media screen and (min-width: 760px) {
     .logo:hover {
         width: 95px;
@@ -232,6 +277,9 @@ section div .pregf {
         font-weight: 300;
         font-size: 27px;
     }
+    div h3 {
+        font-size: 23px;
+    }
     h4 {
         font-weight: 270;
         font-size: 30px;
@@ -245,18 +293,26 @@ section div .pregf {
     .prod {
         background-color: blanchedalmond;
     }
-    p {
-        font-size: 25px;
-        font-weight: 300;
-        padding-bottom: 20px;
-    }
     .imgf {
-        padding-top: 20px;
+        padding: 10px;
     }
     footer div .imgig {
         width: 30px;
     }
+    footer {
+        padding-top: 10px;
+    }
+    footer div p {
+        font-size: 15px;
+    }
+    .form {
+        width: 335px;
+    }
 }
+
+
+
+/*                                     MEDIA QUERY                                     */
 @media screen and (min-width: 1200px) {
     .navpills {
         transition: 0.3s;
@@ -291,25 +347,35 @@ section div .pregf {
     .img {
         width: 700px;
     }
-
-
     .navprodli {
         padding: 20px;
     height: 20px;
     }
-/*HEAD*/
     .img {
         -webkit-transform-origin-x: 1 1;
-    }
-    form div {
-        font-size: 30px;
     }
     .imgf {
         padding-top: 20px;
     }
+    /*footer*/
     footer div .imgig {
         width: 40px;
     }
+    /*contacto*/
+    .form {
+        width: 500px;
+    }
+    form div {
+        font-size: 22px;
+        width: 500px;
+    }
+    footer div p {
+        font-size: 17px;
+    }
+    /*nav en productos*/
+    .navprodli {
+        height: 30px;
+    }
+    
 }
-
 

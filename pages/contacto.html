@@ -28,19 +28,19 @@
                         <div>    
                             <ul class="nav nav-pills">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                                    <a class="nav-link" class="navpills" href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../index.html">Inicio</a>
+                                    <a  class="nav-link" class="navpills" href="./nosotros.html">Nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                                    <a class="nav-link" class="navpills" href="./productos.html">Productos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../pages/productos.html">Productos</a>
+                                    <a class="nav-link" class="navpills" href="./ayuda.html">Ayuda</a>
                                 </li>
                                 <li class="nav-item">
-                                        <a class="nav-link" href="../pages/ayuda.html">Ayuda</a>
+                                    <a class="nav-link active" id="colorpill" class="navpills" href="./contacto.html">Contacto</a>
                                 </li>
                             </ul>
                         </div> 
@@ -53,22 +53,22 @@
             <form class="formm" >
                 <div class="form">
                     <label  for="name">Nombre:</label>
-                    <input type="text" name="name" id="name"> 
-                </div>
-                <div class="form">
-                    <label for="mail">Mail:</label>
-                    <input type="text" name="mail" id="mail">
+                    <input type="text" name="name" id="name" class="form-control"> 
                 </div>
                 <div class="form">
                     <label for="cell">Teléfono:</label>
-                    <input type="text" name="cell" id="cell">
+                    <input type="text" name="cell" id="cell" class="form-control">
                 </div>
-                <div class="form">
-                    <label for="ask">Consulta</label>
-                    <input type="text" name="ask" id="ask">
+                <div class="form" class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
-                <div class="form">Acepta términos y condiciones
-                    <input type="checkbox" name="acepta" value="1" />
+                <div class="form" class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form" class="form-label" >Acepta términos y condiciones
+                    <input  type="checkbox" name="acepta" value="1" />
                 </div>
                 <div class="form"> Desea recibir notificaciones mediante E-mail
                     <input type="checkbox" name="acepta" value="1" />
