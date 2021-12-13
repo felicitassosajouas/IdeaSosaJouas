@@ -5,6 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 main {
     background-image: url(./images/Diseño\ sin\ título.png)
 }
@@ -117,7 +118,10 @@ footer {
 
 
 /*        LINKS        */
+<<<<<<< HEAD
 
+=======
+>>>>>>> bootstrap
 a:active {
     text-decoration: none;
     color: black;
@@ -379,3 +383,7 @@ section div .pregf {
     }
     
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bootstrap
