@@ -1,2 +1,0 @@
-# algobonitoentucasa1
-primer
