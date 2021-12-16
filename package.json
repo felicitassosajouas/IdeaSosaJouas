@@ -1,0 +1,25 @@
+{
+  "name": "algobonitoentucasa1",
+  "version": "1.0.0",
+  "description": "primer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felicitassosajouas/algobonitoentucasa1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felicitassosajouas/algobonitoentucasa1/issues"
+  },
+  "homepage": "https://github.com/felicitassosajouas/algobonitoentucasa1#readme",
+  "dependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

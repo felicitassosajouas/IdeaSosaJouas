@@ -1,0 +1,120 @@
+/*                                     MEDIA QUERY                                     */
+@media screen and (min-width: 760px) {
+    .logo:hover {
+        width: 95px;
+    }
+    h1 {
+        font-weight: 400;
+        font-size: 50px;
+        text-align: center;
+    }
+    h2 {
+        font-weight: 300;
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    h3 {
+        font-weight: 300;
+        font-size: 27px;
+    }
+    div h3 {
+        font-size: 23px;
+    }
+    h4 {
+        font-weight: 270;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    section .navproductos .navprodli{
+        font-size: 20px;
+        font-weight: 300;
+        padding: 0px 5px;
+    }
+    .prod {
+        background-color: blanchedalmond;
+    }
+    .imgf {
+        padding: 10px;
+    }
+    footer div .imgig {
+        width: 30px;
+    }
+    footer {
+        padding-top: 10px;
+    }
+    footer div p {
+        font-size: 15px;
+    }
+    .form {
+        width: 335px;
+    }
+}
+
+
+
+/*                                     MEDIA QUERY                                     */
+@media screen and (min-width: 1200px) {
+    .navpills {
+        transition: 0.3s;
+    }
+    .navpills {
+        background-color: rgb(134, 155, 158);
+        color: black;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: 200px;
+    }
+    .logo {
+        width: 120px;
+        transition-duration: 0.3s;
+    }
+    .logo:hover {
+        width: 126px;
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .mainn {
+        padding: 110px;
+    }
+    .img {
+        width: 700px;
+    }
+    .navprodli {
+        padding: 20px;
+    height: 20px;
+    }
+    .img {
+        -webkit-transform-origin-x: 1 1;
+    }
+    .imgf {
+        padding-top: 20px;
+    }
+    /*footer*/
+    footer div .imgig {
+        width: 40px;
+    }
+    /*contacto*/
+    .form {
+        width: 500px;
+    }
+    form div {
+        font-size: 22px;
+        width: 500px;
+    }
+    footer div p {
+        font-size: 17px;
+    }
+    /*nav en productos*/
+    .navprodli {
+        height: 30px;
+    }
+    
+}

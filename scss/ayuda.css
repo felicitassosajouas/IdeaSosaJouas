@@ -1,0 +1,14 @@
+p {
+  font-weight: 300;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+section div .pregf {
+  text-align: left;
+  padding: 12px;
+  -webkit-text-decoration: underline #869b9e 2px;
+          text-decoration: underline #869b9e 2px;
+  font-style: italic;
+}
+/*# sourceMappingURL=ayuda.css.map */
