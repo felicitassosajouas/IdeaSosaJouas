@@ -1,3 +1,4 @@
+/* GENERAL.HTML */
 *{
     font-family: 'Circular Std', sans-serif;
     margin: 0;
@@ -5,14 +6,13 @@
 	box-sizing: border-box;
 }
 .logo {
-    width: 90px;
+    width: 100px;
     border-radius: 50%;
     transition-duration: 0.5s;
     &:hover {
-        width: 93px;
+        width: 110px;
     }
 }
-
 main {
     background-image: url(../images/Diseño\ sin\ título.png);
     background-repeat: no-repeat;
@@ -22,6 +22,7 @@ main {
 }
 
 h1 {
+    font-family: 'PT Serif', serif;
     align-items: center;
     font-style: italic;
     font-weight: 380;
@@ -42,6 +43,7 @@ h3 {
     text-align: center;
     font-size: 15px;
     font-weight: 300;
+    color: rgb(54, 65, 63);
     div {
         font-size: 18px;
     }
@@ -50,6 +52,7 @@ h3 {
 h4 {
     text-align: center;
     font-weight: 300;
+    color: rgb(54, 65, 63);
 }
 .gridcontainer {
     display: grid;
@@ -78,12 +81,13 @@ footer {
 /* NAV */
 .nav-linksactive{
     background-color: rgb(134, 155, 158);
+    color: rgb(54, 65, 63);
 }
 .nav {
     display: flex;
     flex-direction: column;
 }
-.navpills {
+#colorpills {
     transition: 0.3s;
 }
 .navpills {
@@ -91,6 +95,7 @@ footer {
 }
 #colorpill {
     background-color: rgb(142, 190, 197);
+    color: rgb(64, 77, 75);
 }
 
 /* FOOTER */
@@ -120,7 +125,6 @@ a:active {
 }
 a:hover {
     text-decoration: none;
-    color: black;
 }
 a:link {
     text-decoration: none;
@@ -133,3 +137,18 @@ a:visited {
 a {
     text-decoration: none;
 }
+
+
+/*---------- MAPS ----------*/
+$paddings: ( 
+        pf: 10px 1px 1px 1px,
+        ph:  15px 3px,        
+); 
+
+@each $seccion, $medida in $paddings {
+    .paddings--#{$seccion} {
+        padding: $medida;
+    }
+}
+
+/*---------- extend en contacto.scss ----------*/

@@ -1,3 +1,4 @@
+/* CONTACTO.HTML */
 .formm {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,7 +23,8 @@
   width: 250px;
 }
 
-.bottom {
+/* Extend */
+.bottom, .secondbotton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,17 +39,22 @@
   background-color: #cff388;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
-.bottom:hover {
+.bottom:hover, .secondbotton:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 15px;
   height: 31px;
   width: 150px;
-  background-color: #0d4850;
-  color: white;
+  background-color: #84c9d2;
+  color: #404d4b;
+}
+
+/* change .secondbottom's color */
+#segboton {
+  background-color: #d7e9b4;
 }
 /*# sourceMappingURL=contacto.css.map */
