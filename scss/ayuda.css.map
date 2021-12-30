@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;CACrB;;AACD,AAAA,OAAO,CAAC,GAAG,CAAC,MAAM,CAAC;EACf,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,SAAS,CAAC,OAAkB,CAAC,GAAG;EACjD,UAAU,EAAE,MAAM;CACrB",
-    "sources": [
-        "ayuda.scss"
-    ],
-    "names": [],
-    "file": "ayuda.css"
-}

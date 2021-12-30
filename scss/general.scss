@@ -1,3 +1,8 @@
+/* GENERAL.SCSS*/
+
+/* variables de colores */
+$verde: rgb(207, 243, 136);
+$turquesa: rgb(13, 72, 80); 
 *{
     font-family: 'Circular Std', sans-serif;
     margin: 0;
@@ -22,6 +27,7 @@ main {
 }
 
 h1 {
+    font-family: 'PT Serif', serif;
     align-items: center;
     font-style: italic;
     font-weight: 380;
@@ -38,6 +44,7 @@ h2 {
     font-size: 18px;
     font-weight: 400;
 }
+
 h3 {
     text-align: center;
     font-size: 15px;
