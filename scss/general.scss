@@ -10,14 +10,13 @@ $turquesa: rgb(13, 72, 80);
 	box-sizing: border-box;
 }
 .logo {
-    width: 90px;
+    width: 100px;
     border-radius: 50%;
     transition-duration: 0.5s;
     &:hover {
-        width: 93px;
+        width: 110px;
     }
 }
-
 main {
     background-image: url(../images/Diseño\ sin\ título.png);
     background-repeat: no-repeat;
@@ -35,11 +34,11 @@ h1 {
     padding-top: 20px;
     padding-left: 20px;
     text-align: center;
-    color: rgb(207, 243, 136);
+    color: $verde;
 }
 
 h2 {
-    color: rgb(13, 72, 80);
+    color: $turquesa;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -49,6 +48,7 @@ h3 {
     text-align: center;
     font-size: 15px;
     font-weight: 300;
+    color: rgb(54, 65, 63);
     div {
         font-size: 18px;
     }
@@ -57,13 +57,14 @@ h3 {
 h4 {
     text-align: center;
     font-weight: 300;
+    color: rgb(54, 65, 63);
 }
 .gridcontainer {
     display: grid;
     grid-template-columns: 10fr 1fr; 
     padding: 5px 10px;
     margin: 0px;
-    background-color: rgb(13, 72, 80);
+    background-color: $turquesa;
     background-size: cover;
     background-repeat:no-repeat
 }
@@ -85,12 +86,13 @@ footer {
 /* NAV */
 .nav-linksactive{
     background-color: rgb(134, 155, 158);
+    color: rgb(54, 65, 63);
 }
 .nav {
     display: flex;
     flex-direction: column;
 }
-.navpills {
+#colorpills {
     transition: 0.3s;
 }
 .navpills {
@@ -98,6 +100,7 @@ footer {
 }
 #colorpill {
     background-color: rgb(142, 190, 197);
+    color: rgb(64, 77, 75);
 }
 
 /* FOOTER */
@@ -106,14 +109,15 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 10px;
-    background-color: rgb(207, 243, 136);
+    background-color: $verde;
     align-items: center;
     position: relative;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 30px;
     div {
         p {
             font-size: 15px;
+            background-color: $verde;
         }
     }
     .imgig {
@@ -127,7 +131,6 @@ a:active {
 }
 a:hover {
     text-decoration: none;
-    color: black;
 }
 a:link {
     text-decoration: none;
