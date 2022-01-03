@@ -112,7 +112,7 @@ footer {
     align-items: center;
     position: relative;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 30px;
     div {
         p {
             font-size: 15px;
@@ -142,18 +142,4 @@ a:visited {
 a {
     text-decoration: none;
 }
-
-
-/*---------- MAPS ----------*/
-$paddings: ( 
-        pf: 10px 1px 1px 1px,
-        ph:  15px 3px,        
-); 
-
-@each $seccion, $medida in $paddings {
-    .paddings--#{$seccion} {
-        padding: $medida;
-    }
-}
-
-/*---------- extend en contacto.scss ----------*/
+---------- extend en contacto.scss ----------*/
