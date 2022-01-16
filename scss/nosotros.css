@@ -1,0 +1,15 @@
+/* nosotros.scss */
+.footernos {
+  margin-top: 180px;
+  position: relative;
+}
+
+div img #imgnosotros {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+/*# sourceMappingURL=nosotros.css.map */

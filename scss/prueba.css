@@ -1,0 +1,452 @@
+/* nosotros.scss */
+.footernos {
+  margin-top: 180px;
+  position: relative;
+}
+
+div img #imgnosotros {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+/* ayuda.scss */
+p {
+  background-color: rgba(245, 245, 245, 0.735);
+  font-weight: 300;
+  font-size: 18px;
+  padding-left: 10px;
+  background-color: rgba(245, 245, 245, 0.735);
+}
+
+section div .pregf {
+  text-align: left;
+  padding: 12px;
+  -webkit-text-decoration: underline #869b9e 2px;
+          text-decoration: underline #869b9e 2px;
+  font-style: italic;
+}
+
+/* productos.scss */
+div section .section {
+  background-image: url(../images/fondo.png);
+  background-size: 100%;
+}
+
+.navproductos {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #000;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+.navprodli {
+  height: 30px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 360;
+  list-style-type: none;
+}
+
+.navprodli:hover {
+  padding: 5px;
+  background-color: #8ebec5;
+  color: black;
+}
+
+img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px !important;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px auto;
+  display: block;
+  border-radius: 5%;
+}
+
+.imgig {
+  width: 20px;
+}
+
+/* contacto.scss */
+.formm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+  height: 30px;
+  width: 140px;
+  border: none;
+  display: flex;
+  background-color: #cff388;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  border-radius: 5%;
+}
+
+.bottom:hover {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+  height: 31px;
+  width: 150px;
+  background-color: #84c9d2;
+  color: #404d4b;
+}
+
+/* media.scss */
+/*                         MEDIA QUERY  minw 760px                         */
+@media screen and (min-width: 760px) {
+  .logo:hover {
+    width: 95px;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  div h3 {
+    font-size: 23px;
+  }
+  div h3 h3 {
+    font-weight: 300;
+    font-size: 27px;
+  }
+  div h3 h3 .prod {
+    background-color: rgba(255, 235, 205, 0.666);
+  }
+  h4 {
+    font-weight: 270;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  img {
+    width: 500px;
+  }
+  section .navproductos .navprodli {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 5px;
+  }
+  .imgf {
+    padding: 10px;
+  }
+  footer {
+    padding-top: 10px;
+  }
+  footer footer div .imgig {
+    width: 30px;
+  }
+  footer footer div p {
+    font-size: 15px;
+  }
+  .form {
+    width: 335px;
+  }
+}
+
+/*                         MEDIA QUERY minw 1200px                         */
+@media screen and (min-width: 1200px) {
+  .navpills {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .navpills {
+    background-color: #869b9e;
+    color: black;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 200px;
+  }
+  .logo {
+    width: 120px !important;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  .logo:hover {
+    width: 126px;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .mainn {
+    padding: 110px;
+  }
+  .img {
+    width: 520px;
+  }
+  .navprodli {
+    padding: 20px;
+    height: 20px;
+  }
+  .img {
+    -webkit-transform-origin-x: 1 1;
+  }
+  .imgf {
+    padding-top: 20px;
+  }
+  /*footer*/
+  footer div .imgig {
+    width: 40px;
+  }
+  /*contacto*/
+  .form {
+    width: 500px;
+  }
+  form div {
+    font-size: 22px;
+    width: 500px;
+  }
+  footer div p {
+    font-size: 17px;
+  }
+  /*nav en productos*/
+  .navprodli {
+    height: 30px;
+  }
+}
+
+/* GENERAL.SCSS*/
+/* variables de colores */
+* {
+  font-family: 'Circular Std', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.logo:hover {
+  width: 110px;
+}
+
+main {
+  background-image: url(../images/fondo.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: italic;
+  font-weight: 380;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: center;
+  color: #cff388;
+}
+
+h2 {
+  color: #0d4850;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  color: #36413f;
+}
+
+h3 div {
+  font-size: 18px;
+}
+
+h3 .prod {
+  background-color: rgba(255, 235, 205, 0.666);
+}
+
+h4 {
+  text-align: center;
+  font-weight: 300;
+  color: #36413f;
+}
+
+/* HEADER CON TITULO Y LOGO */
+.gridcontainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10fr 1fr;
+      grid-template-columns: 10fr 1fr;
+  padding: 5px 10px;
+  margin: 0px;
+  background-color: #0d4850;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img {
+  padding: 5px;
+  width: 300px;
+}
+
+footer .imgig {
+  width: 20px;
+}
+
+/* NAV */
+.nav-links:active {
+  background-color: #869b9e;
+  color: #36413f;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#colorpills {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navpills {
+  background-color: #a6c5ca;
+}
+
+#colorpill {
+  background-color: #8ebec5;
+  color: #36413f;
+}
+
+/* FOOTER */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 10px;
+  background-color: #cff388;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+}
+
+footer div p {
+  font-size: 15px;
+  background-color: #cff388;
+}
+
+footer .imgig {
+  padding-bottom: 10px;
+}
+
+/* links generales */
+a:link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:visited {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+a:active {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #36413f !important;
+}
+/*# sourceMappingURL=prueba.css.map */

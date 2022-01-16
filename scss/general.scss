@@ -2,7 +2,9 @@
 
 /* variables de colores */
 $verde: rgb(207, 243, 136);
-$turquesa: rgb(13, 72, 80); 
+$turquesa: rgb(13, 72, 80);
+$gris: rgb(54, 65, 63);
+
 *{
     font-family: 'Circular Std', sans-serif;
     margin: 0;
@@ -18,7 +20,7 @@ $turquesa: rgb(13, 72, 80);
     }
 }
 main {
-    background-image: url(../images/Diseño\ sin\ título.png);
+    background-image: url(../images/fondo.png);
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: center;
@@ -48,16 +50,19 @@ h3 {
     text-align: center;
     font-size: 15px;
     font-weight: 300;
-    color: rgb(54, 65, 63);
+    color: $gris;
     div {
         font-size: 18px;
+    }
+    .prod {
+        background-color: rgba(255, 235, 205, 0.666);
     }
 }
 
 h4 {
     text-align: center;
     font-weight: 300;
-    color: rgb(54, 65, 63);
+    color: $gris;
 }
 /* HEADER CON TITULO Y LOGO */
 .gridcontainer {
@@ -65,19 +70,15 @@ h4 {
     grid-template-columns: 10fr 1fr; 
     padding: 5px 10px;
     margin: 0px;
-    background-color: rgb(34, 87, 94);
+    background-color: $turquesa;
     background-size: cover;
     background-repeat:no-repeat
 }
 .img {
     padding: 5px;
-    width: 350px;
+    width: 300px;
 }
-.imgflex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 footer {
     .imgig {
         width: 20px;
@@ -87,7 +88,7 @@ footer {
 /* NAV */
 .nav-links:active {
     background-color: rgb(134, 155, 158);
-    color: rgb(54, 65, 63);
+    color: $gris;
 }
 .nav {
     display: flex;
@@ -101,7 +102,7 @@ footer {
 }
 #colorpill {
     background-color: rgb(142, 190, 197);
-    color: rgb(64, 77, 75);
+    color: $gris;
 }
 
 /* FOOTER */
@@ -127,22 +128,22 @@ footer {
 }
 /* links generales */
 a:link {
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 }
 a:visited {
-    color: black;
-    text-decoration: none;
+    color: black !important;
+    text-decoration: none !important;
 }
 a:active {
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 }
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
+}
+a:hover{
+    text-decoration: none !important;
+    color: $gris !important;
 }

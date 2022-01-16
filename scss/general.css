@@ -1,0 +1,180 @@
+/* GENERAL.SCSS*/
+/* variables de colores */
+* {
+  font-family: 'Circular Std', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.logo:hover {
+  width: 110px;
+}
+
+main {
+  background-image: url(../images/fondo.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: italic;
+  font-weight: 380;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: center;
+  color: #cff388;
+}
+
+h2 {
+  color: #0d4850;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  color: #36413f;
+}
+
+h3 div {
+  font-size: 18px;
+}
+
+h3 .prod {
+  background-color: rgba(255, 235, 205, 0.666);
+}
+
+h4 {
+  text-align: center;
+  font-weight: 300;
+  color: #36413f;
+}
+
+/* HEADER CON TITULO Y LOGO */
+.gridcontainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10fr 1fr;
+      grid-template-columns: 10fr 1fr;
+  padding: 5px 10px;
+  margin: 0px;
+  background-color: #0d4850;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img {
+  padding: 5px;
+  width: 300px;
+}
+
+footer div img .imgig {
+  width: 20px !important;
+}
+
+/* NAV */
+.nav-links:active {
+  background-color: #869b9e;
+  color: #36413f;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#colorpills {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navpills {
+  background-color: #a6c5ca;
+}
+
+#colorpill {
+  background-color: #8ebec5;
+  color: #36413f;
+}
+
+/* FOOTER */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 10px;
+  background-color: #cff388;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+}
+
+footer div p {
+  font-size: 15px;
+  background-color: #cff388;
+}
+
+footer .imgig {
+  padding-bottom: 10px;
+}
+
+/* links generales */
+a:link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:visited {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+a:active {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #36413f !important;
+}
+/*# sourceMappingURL=general.css.map */

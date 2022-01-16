@@ -1,0 +1,124 @@
+/* media.scss */
+/*                         MEDIA QUERY  minw 760px                         */
+@media screen and (min-width: 760px) {
+  .logo:hover {
+    width: 95px !important;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  div h3 {
+    font-size: 23px;
+  }
+  div h3 h3 {
+    font-weight: 300;
+    font-size: 27px;
+  }
+  div h3 h3 .prod {
+    background-color: rgba(255, 235, 205, 0.666);
+  }
+  h4 {
+    font-weight: 270;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  img {
+    width: 500px !important;
+  }
+  section .navproductos .navprodli {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 5px;
+  }
+  .imgf {
+    padding: 10px;
+  }
+  footer {
+    padding-top: 10px;
+  }
+  footer div .imgig {
+    width: 30px !important;
+  }
+  footer div p {
+    font-size: 15px;
+  }
+  .form {
+    width: 335px;
+  }
+}
+
+/*                         MEDIA QUERY minw 1200px                         */
+@media screen and (min-width: 1200px) {
+  .navpills {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .navpills {
+    background-color: #869b9e;
+    color: black;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 200px;
+  }
+  .logo {
+    width: 120px !important;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  .logo:hover {
+    width: 126px;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .mainn {
+    padding: 110px;
+  }
+  .img {
+    width: 520px !important;
+  }
+  .navprodli {
+    padding: 20px;
+    height: 20px;
+  }
+  .img {
+    -webkit-transform-origin-x: 1 1;
+  }
+  .imgf {
+    padding-top: 20px;
+  }
+  /*footer*/
+  footer div .imgig {
+    width: 40px !important;
+  }
+  /*contacto*/
+  .form {
+    width: 500px;
+  }
+  form div {
+    font-size: 22px;
+    width: 500px;
+  }
+  footer div p {
+    font-size: 17px;
+  }
+  /*nav en productos*/
+  .navprodli {
+    height: 30px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

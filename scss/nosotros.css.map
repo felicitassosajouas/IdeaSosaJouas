@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,mBAAmB;AACnB,AAAA,UAAU,CAAC;EACP,UAAU,EAAE,KAAK;EACjB,QAAQ,EAAE,QAAQ;CACrB;;AACD,AAAA,GAAG,CAAC,GAAG,CAAC,YAAY,CAAC;EACjB,eAAe,EAAE,iBAAiB;EAClC,WAAW,EAAE,iBAAiB;CAEjC",
+    "sources": [
+        "nosotros.scss"
+    ],
+    "names": [],
+    "file": "nosotros.css"
+}

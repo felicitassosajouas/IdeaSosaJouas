@@ -1,5 +1,7 @@
+/* productos.scss */
+
 div section .section {
-    background-image: url(./images/Diseño\ sin\ título.png);
+    background-image: url(../images/fondo.png);
     background-size: 100%;
 }
 .navproductos {
@@ -27,15 +29,13 @@ div section .section {
     }
 }
 img {
-    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 370px;
+    width: 200px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin:10px auto;
 	display:block;
     border-radius: 5%;

@@ -1,7 +1,8 @@
-/*                                     MEDIA QUERY                                     */
+/* media.scss */
+/*                         MEDIA QUERY  minw 760px                         */
 @media screen and (min-width: 760px) {
     .logo:hover {
-        width: 95px;
+        width: 95px !important;
     }
     h1 {
         font-weight: 400;
@@ -13,37 +14,40 @@
         font-size: 30px;
         padding-bottom: 15px;
     }
-    h3 {
-        font-weight: 300;
-        font-size: 27px;
-    }
     div h3 {
         font-size: 23px;
+        h3 {
+            font-weight: 300;
+            font-size: 27px;
+            .prod {
+                background-color: rgba(255, 235, 205, 0.666);
+            }
+        }
     }
     h4 {
         font-weight: 270;
         font-size: 30px;
         padding-bottom: 10px;
     }
+    img {
+        width: 500px !important;
+    }
     section .navproductos .navprodli{
         font-size: 20px;
         font-weight: 300;
         padding: 0px 5px;
     }
-    .prod {
-        background-color: blanchedalmond;
-    }
     .imgf {
         padding: 10px;
     }
-    footer div .imgig {
-        width: 30px;
-    }
     footer {
         padding-top: 10px;
-    }
-    footer div p {
-        font-size: 15px;
+        div .imgig {
+            width: 30px !important;
+        }
+        div p {
+            font-size: 15px;
+        }
     }
     .form {
         width: 335px;
@@ -51,8 +55,8 @@
 }
 
 
+/*                         MEDIA QUERY minw 1200px                         */
 
-/*                                     MEDIA QUERY                                     */
 @media screen and (min-width: 1200px) {
     .navpills {
         transition: 0.3s;
@@ -66,7 +70,7 @@
         font-weight: 200px;
     }
     .logo {
-        width: 120px;
+        width: 120px !important;
         transition-duration: 0.3s;
     }
     .logo:hover {
@@ -85,7 +89,7 @@
         padding: 110px;
     }
     .img {
-        width: 700px;
+        width: 520px !important;
     }
     .navprodli {
         padding: 20px;
@@ -99,7 +103,7 @@
     }
     /*footer*/
     footer div .imgig {
-        width: 40px;
+        width: 40px !important;
     }
     /*contacto*/
     .form {
