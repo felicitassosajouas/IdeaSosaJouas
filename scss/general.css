@@ -9,14 +9,14 @@
 }
 
 .logo {
-  width: 100px;
+  width: 90px !important;
   border-radius: 50%;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
 }
 
 .logo:hover {
-  width: 110px;
+  width: 100px !important;
 }
 
 main {

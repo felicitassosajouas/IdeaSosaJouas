@@ -148,14 +148,14 @@ img {
 }
 
 .logo {
-  width: 100px;
+  width: 90px !important;
   border-radius: 50%;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
 }
 
 .logo:hover {
-  width: 110px;
+  width: 100px;
 }
 
 main {
@@ -321,7 +321,7 @@ a:hover {
 /*                         MEDIA QUERY  minw 760px                         */
 @media screen and (min-width: 760px) {
   .logo:hover {
-    width: 95px;
+    width: 95px !important;
   }
   h1 {
     font-weight: 400;
@@ -370,6 +370,9 @@ a:hover {
   }
   .form {
     width: 335px;
+  }
+  .logo {
+    width: 90px;
   }
 }
 
